@@ -12,9 +12,11 @@ http://maven.apache.org/
 
 ## 5.修改maven安装路径下conf/settings.xml
 在mirrors节点中，添加镜像下载地址
+```
 <mirror>
     <id>aliyunmaven</id>
     <mirrorOf>*</mirrorOf>
     <name>阿里云公共仓库</name>
     <url>https://maven.aliyun.com/repository/public</url>
 </mirror>
+```
